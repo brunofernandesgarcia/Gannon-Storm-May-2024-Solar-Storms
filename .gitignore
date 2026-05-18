@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- SHARP FITS cubes (hundreds of MB; fetched by notebook 02) ---
+data/sharp/
+
+# --- VSO / SunPy download caches ---
+.sunpy/
+sunpydata/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# --- Personal scratch ---
+scratch/
+*.log
+
+# --- Legacy notebooks (kept locally as reference, NOT pushed) ---
+/all_graphs.ipynb
+/baixando_imagens_SDO.ipynb
+/flare_recurrence_ar13664.ipynb
+/hmi_paper.ipynb
+/mapa_flares_paper.ipynb
+/mapa_flares_paper-Copy1.ipynb
+/table_flares_GOES.ipynb
+/gannon_storm_2024_flares.csv
+/.pdf
+/.ipynb_checkpoints/

@@ -1,0 +1,67 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated article."
+title: "Gannon-Storm-May-2024-Solar-Storms: code and data for Garcia et al. (2026, Adv. Space Res.)"
+type: software
+license: MIT
+repository-code: "https://github.com/brunofernandesgarcia/Gannon-Storm-May-2024-Solar-Storms"
+url: "https://doi.org/10.1016/j.asr.2026.04.125"
+keywords:
+  - "solar flares"
+  - "active regions"
+  - "AR 13663"
+  - "AR 13664"
+  - "Gannon storm"
+  - "SDO/HMI"
+  - "SHARP"
+  - "polarity inversion line"
+  - "recurrence time"
+  - "space weather"
+  - "solar cycle 25"
+
+authors:
+  - family-names: "Garcia"
+    given-names: "Bruno Fernandes"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE), São José dos Campos, SP, Brazil"
+  - family-names: "Rezende Costa"
+    given-names: "Joaquim Eduardo"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE), São José dos Campos, SP, Brazil"
+  - family-names: "Antunes Vieira"
+    given-names: "Luis Eduardo"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE), São José dos Campos, SP, Brazil"
+  - family-names: "Dal Lago"
+    given-names: "Alisson"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE), São José dos Campos, SP, Brazil"
+  - family-names: "do Vale Pena"
+    given-names: "Christofher"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE), São José dos Campos, SP, Brazil"
+  - family-names: "da Silva Rocha"
+    given-names: "José Matheus"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE), São José dos Campos, SP, Brazil"
+  - family-names: "Raji"
+    given-names: "Idowu"
+    affiliation: "Instituto Nacional de Pesquisas Espaciais (INPE), São José dos Campos, SP, Brazil"
+
+preferred-citation:
+  type: article
+  title: "Extreme Temporal Clustering of Solar Flares in AR 13663/13664: Magnetic Topology and Recurrence Time in May 2024"
+  journal: "Advances in Space Research"
+  publisher:
+    name: "Elsevier B.V. on behalf of COSPAR"
+  year: 2026
+  doi: "10.1016/j.asr.2026.04.125"
+  issn: "0273-1177"
+  authors:
+    - family-names: "Garcia"
+      given-names: "Bruno Fernandes"
+    - family-names: "Rezende Costa"
+      given-names: "Joaquim Eduardo"
+    - family-names: "Antunes Vieira"
+      given-names: "Luis Eduardo"
+    - family-names: "Dal Lago"
+      given-names: "Alisson"
+    - family-names: "do Vale Pena"
+      given-names: "Christofher"
+    - family-names: "da Silva Rocha"
+      given-names: "José Matheus"
+    - family-names: "Raji"
+      given-names: "Idowu"

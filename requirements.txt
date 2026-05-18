@@ -1,0 +1,33 @@
+# Reproducibility environment for:
+#   Garcia et al. (2026), "Extreme Temporal Clustering of Solar Flares in
+#   AR 13663/13664: Magnetic Topology and Recurrence Time in May 2024",
+#   Advances in Space Research, doi:10.1016/j.asr.2026.04.125
+#
+# Tested with Python 3.10 and 3.11 on Windows 10/11 and Ubuntu 22.04.
+#
+# Notes:
+#   - Cartopy may require a system-level GEOS/PROJ install when using pip.
+#     If installation fails, use the conda one-liner from the README instead.
+#   - The legacy Basemap dependency from earlier drafts has been replaced by
+#     Cartopy in the published version of the code.
+
+# --- core scientific stack ---
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+
+# --- solar / astronomy ---
+sunpy>=5.1
+astropy>=5.3
+drms>=0.7              # JSOC client used by sunpy.net.Fido for SHARP/HMI
+
+# --- maps / projections (Fig. 2) ---
+cartopy>=0.22
+
+# --- Excel I/O (input tables under data/) ---
+openpyxl>=3.1
+
+# --- notebook environment ---
+jupyterlab>=4.0
+ipykernel>=6.25
