@@ -38,9 +38,10 @@ The main result is that **flare recurrence time is decoupled from individual fla
 ├── requirements.txt         ← Python dependencies
 │
 ├── data/                    ← input data (small files only)
-│   ├── gannon_storm_2024_flares.csv        ← GOES/HEK flare catalog (Apr 28 – May 15, 2024)
-│   ├── dados_analises_may_2024_flares.xlsx ← per-day flare counts and recurrence-time tables
-│   └── README_data.md                       ← description of each column and source
+│   ├── gannon_storm_2024_flares.csv                  ← GOES/HEK flare catalog (Apr 28 – May 15, 2024)
+│   ├── dados_analises_may_2024_flares.xlsx           ← per-day flare counts and recurrence-time tables
+│   ├── may_05_2-24_flares(complete)(with_C)_ars.xlsx ← per-flare catalog (peak time, class, AR, recurrence) for Fig. 7
+│   └── README_data.md                                ← description of each column and source
 │
 ├── notebooks/               ← reproducible Jupyter notebooks (one per figure/table group)
 │   ├── 01_download_GOES_flare_catalog.ipynb
@@ -49,6 +50,7 @@ The main result is that **flare recurrence time is decoupled from individual fla
 │   ├── 04_fig2_flare_disk_map.ipynb
 │   ├── 05_fig3_fig4_flares_per_day.ipynb
 │   ├── 06_fig5_recurrence_histograms.ipynb
+│   ├── 07_fig7_flux_vs_recurrence.ipynb
 │   └── 08_fig8_fig9_HMI_magnetic_morphology.ipynb
 │
 └── figures/                 ← output figures (PNG/PDF) reproduced by the notebooks
@@ -68,7 +70,7 @@ The main result is that **flare recurrence time is decoupled from individual fla
 | **Fig. 4**  | Number of flares per day by class (C/M/X) | `05_fig3_fig4_flares_per_day.ipynb` |
 | **Fig. 5**  | Histograms of flare recurrence time | `06_fig5_recurrence_histograms.ipynb` |
 | **Fig. 6**  | Dst and Kp indices (EMBRACE/Kyoto WDC) | *external; figures reproduced from EMBRACE briefings* |
-| **Fig. 7**  | Peak X-ray flux vs. recurrence time | *to be added — see [open task](#open-tasks)* |
+| **Fig. 7**  | Peak X-ray flux vs. recurrence time (energy–cadence decoupling) | `07_fig7_flux_vs_recurrence.ipynb` |
 | **Figs. 8–9** | Bz / Bh and PIL contours (AR 13663 May 03–06; AR 13664 May 08–10) | `08_fig8_fig9_HMI_magnetic_morphology.ipynb` |
 | **Table 1** | Comparative flare statistics per AR | derived from `gannon_storm_2024_flares.csv` |
 | **Tables 3, 4** | Daily evolution of SHARP indices | manually extracted from [JSOC](http://jsoc.stanford.edu/) for HARPNUM 11142 (AR 13663) and HARPNUM 11149 (AR 13664) |
@@ -123,7 +125,6 @@ The flare catalog `gannon_storm_2024_flares.csv` was obtained on Feb 13, 2025 vi
 
 ## Open tasks
 
-- [ ] Notebook for **Figure 7** (peak X-ray flux vs. recurrence time scatter, coloured by AR) — the published figure was produced in the manuscript draft but the corresponding notebook is not yet committed here. A first version can be built on top of `data/gannon_storm_2024_flares.csv` plus the recurrence-time tables already loaded in notebook `06`.
 - [ ] Companion CSV/JSON of **Tables 3 and 4** (daily SHARP indices) so that they can be cross-checked programmatically rather than retyped from the PDF.
 - [ ] Optional: archive a frozen release on **Zenodo** to get a citable DOI tied to a specific commit.
 

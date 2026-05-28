@@ -12,6 +12,9 @@ env/
 # --- SHARP FITS cubes (hundreds of MB; fetched by notebook 02) ---
 data/sharp/
 
+# --- Generated intermediate product (rebuilt by notebook 07) ---
+data/flares_with_flux.csv
+
 # --- VSO / SunPy download caches ---
 .sunpy/
 sunpydata/

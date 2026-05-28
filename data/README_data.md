@@ -84,6 +84,34 @@ because the per-class workbook still uses the original column names
 
 ---
 
+## `may_05_2-24_flares(complete)(with_C)_ars.xlsx`
+
+Per-flare working catalogue (161 rows) used by
+`07_fig7_flux_vs_recurrence.ipynb` to reproduce **Figure 7**. The notebook
+reads the following columns by position (0-indexed):
+
+| Col | Header | Used as |
+|---:|---|---|
+| 1 | `Event_peak time` | flare peak time (matched against the GOES series) |
+| 3 | `fl_goescls` | GOES class string (`C`/`M`/`X…`) — sets marker size |
+| 4 | `ar_noaanum` | NOAA active-region number (13663 / 13664) — sets colour |
+| 7 | `Interval Time` | peak-to-peak recurrence time (parsed as a timedelta) |
+
+Other columns in the workbook are auxiliary/scratch and are not read by the
+notebook.
+
+---
+
+## `flares_with_flux.csv` (generated — not tracked)
+
+Intermediate product written by the first code cell of
+`07_fig7_flux_vs_recurrence.ipynb`: one row per flare with the GOES flux
+mapped to its peak time. Columns: `Peak_Time`, `GOES_Class`, `AR_Number`,
+`Recurrence_Time_h`, `X_ray_Flux_Wm2`. It is rebuilt every run and is listed
+in `.gitignore`, so it is **not** committed.
+
+---
+
 ## `sharp/` (not tracked)
 
 After running `02_download_SDO_HMI.ipynb` you will find the SDO/HMI SHARP
