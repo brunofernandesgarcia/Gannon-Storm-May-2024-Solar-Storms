@@ -1,5 +1,7 @@
 # Extreme Temporal Clustering of Solar Flares in AR 13663/13664
 
+[![DOI](https://zenodo.org/badge/928304835.svg)](https://doi.org/10.5281/zenodo.24354202)
+
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.asr.2026.04.125-blue)](https://doi.org/10.1016/j.asr.2026.04.125)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
