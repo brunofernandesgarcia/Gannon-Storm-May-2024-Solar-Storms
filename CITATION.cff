@@ -5,6 +5,7 @@ type: software
 license: MIT
 repository-code: "https://github.com/brunofernandesgarcia/Gannon-Storm-May-2024-Solar-Storms"
 url: "https://doi.org/10.1016/j.asr.2026.04.125"
+doi: "10.5281/zenodo.24354202"
 keywords:
   - "solar flares"
   - "active regions"
@@ -65,3 +66,5 @@ preferred-citation:
       given-names: "José Matheus"
     - family-names: "Raji"
       given-names: "Idowu"
+
+doi: 10.5281/zenodo.24354202
